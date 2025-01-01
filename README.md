@@ -1,5 +1,3 @@
-# Juca's Website
-
-[jucaaquino.com](jucaaquino.com)
+# [jucaaquino.com](https://jucaaquino.com)
 
 My portfolio website, compiled with Hugo.
