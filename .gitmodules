@@ -1,0 +1,3 @@
+[submodule "static/cv"]
+	path = static/cv
+	url = https://github.com/jucaqi/cv.git
