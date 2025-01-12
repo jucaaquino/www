@@ -1,64 +1,47 @@
-/* geist-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/geist-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 500;
-  src: url('/fonts/geist-v1-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-600 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/fonts/geist-v1-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-700 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/fonts/geist-v1-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-800 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 800;
-  src: url('/fonts/geist-v1-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* geist-900 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 900;
-  src: url('/fonts/geist-v1-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-.container {
+body {
     margin: 0 auto;
-    80%;
     font-family: Geist;
+    max-width: 800px;
 }
 
-nav, footer {
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.menu .active {
+    color: black;
+}
+
+/*nav, footer {
     text-align: center;
 }
 
 nav {
-    display: flex;
+    width: 600px;
+    display: inline;
     flex-direction: row;
 }
 
@@ -75,4 +58,4 @@ header {
 
 @media only screen and (min-width: 768px) {
     header { flex-direction: row; }
-}
+}*/
