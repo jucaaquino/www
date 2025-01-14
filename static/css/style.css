@@ -1,29 +1,44 @@
+:root {
+    --gap: 24px;
+    --nav-width: 1024px;
+}
+
 body {
-    margin: 0 auto;
     font-family: Geist;
-    max-width: 800px;
+}
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
 }
 
 .logo a {
-    text-decoration: none;
+    font-size: 5vh;
     color: black;
 }
 
 .menu {
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
 }
 
 .menu li {
     float: left;
+    width: 100px;
 }
 
 .menu a {
+    font-size: 3vh;
     color: grey;
-    text-decoration: none;
-    padding: 15px;
     display: block;
 }
 
@@ -33,6 +48,15 @@ body {
 
 .menu .active {
     color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: grey;
+  text-align: center;
 }
 
 /*nav, footer {
@@ -59,3 +83,4 @@ header {
 @media only screen and (min-width: 768px) {
     header { flex-direction: row; }
 }*/
+

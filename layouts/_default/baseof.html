@@ -9,13 +9,17 @@
         <link rel="icon" href="/favicon.ico">
     </head>
     <body>
-        <header>
+        <header class="">
             <nav class="nav">
                 <h1 class="logo"><a href="/">{{ site.Title }}</a></h1>
                 <ul class="menu">
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.main }}
-                        <li><a href="{{ .URL }}"{{ if eq .URL $currentPage.RelPermalink }} class="active"{{ end }}>{{ .Name }}</a></li>
+                        <li>
+                            <a href="{{ .URL }}"{{ if eq .URL $currentPage.RelPermalink }} class="active"{{ end }}>
+                                {{ .Name }}
+                            </a>
+                        </li>
                     {{ end }}
                 </ul>
             </nav>
@@ -25,7 +29,7 @@
             {{ block "main" . }}{{ end }}
         </main>
 
-        <footer>
+        <footer class="footer">
             <p>© {{ now.Year }} Juca Aquino. All rights reserved.</p>
         </footer>
     </body>
