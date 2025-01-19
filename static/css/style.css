@@ -1,6 +1,9 @@
 :root {
     --gap: 24px;
     --nav-width: 1024px;
+    --logo-size: 50px;
+    --menu-size: 30px; 
+    --header-height: 50px;
 }
 
 body {
@@ -12,19 +15,16 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    max-width: var(--nav-width);
     margin-inline-start: auto;
     margin-inline-end: auto;
-}
-
-.nav a {
-    display: block;
-    text-decoration: none;
+    line-height: var(--header-height);
 }
 
 .logo a {
-    font-size: 5vh;
+    font-size: var(--logo-size);
     color: black;
+    text-decoration: none;
 }
 
 .menu {
@@ -37,9 +37,10 @@ body {
 }
 
 .menu a {
-    font-size: 3vh;
+    font-size: var(--menu-size);
     color: grey;
     display: block;
+    text-decoration: none;
 }
 
 .menu a:hover {
@@ -58,29 +59,4 @@ body {
   color: grey;
   text-align: center;
 }
-
-/*nav, footer {
-    text-align: center;
-}
-
-nav {
-    width: 600px;
-    display: inline;
-    flex-direction: row;
-}
-
-nav > a {
-    flex: 1;
-    text-align: center;
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-}
-
-@media only screen and (min-width: 768px) {
-    header { flex-direction: row; }
-}*/
 
