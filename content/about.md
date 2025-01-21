@@ -16,4 +16,4 @@ often more compelling than the intended results. Juca has
 done volunteering work for the Winnipeg Art Gallery, Plug 
 In ICA and Art City.
 
-[Download CV](/cv/aquino-cv.pdf)
+**[Download CV](/cv/aquino-cv.pdf)**

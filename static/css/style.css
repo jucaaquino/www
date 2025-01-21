@@ -1,8 +1,11 @@
 body {
     font-family: Geist;
     text-align: justify;
-    hypens: auto;
     font-size: 15px;
+}
+
+p {
+    hyphens: auto;
 }
 
 .header {
