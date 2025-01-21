@@ -6,7 +6,7 @@
     </section>
 
     <section class="project-list">
-        <h2>Projects</h2>
+        <h2>Work</h2>
         <ul>
             {{ range (where .Site.RegularPages "Type" "in" "work") }}
             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>

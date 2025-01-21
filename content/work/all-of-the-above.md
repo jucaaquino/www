@@ -3,11 +3,8 @@ title = "All of the Above"
 date = 2024
 +++
 
-![alt](//via.placeholder.com/640x150)
+### *99 Paintings by Juca Aquino*
 
-Description...
+School of Art Student Gallery
 
-### Tech used
-* item
-* item
-* item
+
