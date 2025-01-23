@@ -2,6 +2,10 @@
 title = 'About'
 +++
 
+![alt](/portrait2.jpeg)
+
+<br>
+
 Juca Aquino is a Brazilian-Canadian artist currently 
 studying at the University of Manitoba. Juca’s artistic 
 practice is informed by Brazilian art and architecture 

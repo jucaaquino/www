@@ -1,42 +1,42 @@
 body {
     font-family: Geist;
-    font-size: 15px;
+    font-size: var(--body-size);
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 p {
     hyphens: auto;
 }
 
-.header {
-    margin-left: var(--margin); 
-    margin-right: var(--margin); 
-}
-
 .nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     max-width: var(--nav-width);
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+    justify-content: space-between;
+    margin-left: calc((100vw - var(--nav-width)) * 0.5);
 }
 
 .logo {
-    margin-right: var(--gap);
+    font-size: var(--logo-size);
+    line-height: var(--nav-height);
 }
 
 .logo a {
-    font-size: var(--logo-size);
     text-decoration: none;
     color: black;
 }
 
+.menu {
+    display: flex;
+    float: right;
+    line-height: var(--nav-height);
+}
+
 .menu li {
-    float: left;
     margin-right: var(--gap);
+}
+
+.menu li:last-child {
+  margin-right: 0;
 }
 
 .menu a {
@@ -54,29 +54,55 @@ p {
 }
 
 .main {
-    margin: var(--margin);
+    min-height: calc(100vh - var(--nav-height) - var(--footer-height) - 2px);
+    max-width: var(--nav-width);
+    margin-left: calc((100vw - var(--nav-width)) * 0.5);
 }
 
 .footer {
     color: grey;
     text-align: center;
-    margin-top: auto;
+    font-size: var(--foot-size);
 }
 
+
 :root {
+    --logo-size: 50px;
+    --menu-size: 25px; 
+    --body-size: 20px;
+    --foot-size: 15px;
+
+    --nav-height: calc(var(--logo-size) * 2);
+    --nav-width: 800px;
+
+    --footer-height: calc(var(--body-size) * 1.5);
+
     --gap: 24px;
-    --nav-width: 1024px;
-    --logo-size: 60px;
-    --menu-size: 30px; 
-    --header-height: 50px;
     --margin: 20px;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 840px) {
     :root {
-        --margin: 20px;
         --logo-size: 40px;
         --menu-size: 20px;
+        --body-size: 15px;
+        --foot-size: 10px;
+
+        --nav-height: calc(var(--logo-size) * 1.5 + var(--menu-size) * 1.5);
+
+        --margin: 20px;
         --gap: 24px;
     }
+    .nav {
+        flex-direction: column;
+        margin: var(--margin);
+    }
+    .main {
+        margin-left: var(--margin);
+        margin-right: var(--margin);
+    }
+    .logo, .menu {
+        line-height: inherit;
+    } 
 }
