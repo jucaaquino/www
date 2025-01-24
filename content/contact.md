@@ -10,5 +10,5 @@ juca@jucaaquino.com
 
 ## Follow Juca
 
-![FB](fb.png)
-![Twitter](twitter.png)
+![instagram](/instagram.svg)
+![github](/github.svg)
