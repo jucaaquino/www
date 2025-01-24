@@ -65,7 +65,6 @@ footer {
     line-height: 2;
 }
 
-
 :root {
     --body-size: 18px;
 
@@ -83,10 +82,10 @@ footer {
         --gap: 24px;
         --margin: 20px;
     }
-    .nav {
+    nav {
         flex-direction: column;
     }
-    .menu {
+    menu {
         line-height: inherit;
     } 
     body {
