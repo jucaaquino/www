@@ -9,9 +9,6 @@ body {
     flex-direction: column;
 }
 
-p {
-    hyphens: auto;
-}
 
 header {
     padding-top: var(--gap);
@@ -57,6 +54,19 @@ nav {
     color: black;
 }
 
+p {
+    hyphens: auto;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+.home {
+    width: 800px;
+}
+
 footer {
     color: grey;
     text-align: center;
@@ -68,7 +78,7 @@ footer {
 :root {
     --body-size: 18px;
 
-    --max-width: 800px;
+    --max-width: 900px;
 
     --gap: 60px;
     --margin: 20px;
@@ -89,5 +99,9 @@ footer {
 
     body {
         margin: 0 var(--margin) 0 var(--margin);
+    }
+
+    main {
+        width: auto;
     }
 }

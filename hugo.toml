@@ -1,6 +1,7 @@
 baseURL = 'https://jucaaquino.com/'
 languageCode = 'en-us'
 title = 'Juca Aquino'
+description = 'Juca Aquino'
 pluralizelisttitles = false
 markup.goldmark.renderer.unsafe= true
 
@@ -8,10 +9,10 @@ markup.goldmark.renderer.unsafe= true
     name = 'Work'
     url = '/work/'
     weight = 1
-[[menu.main]]
-    name = 'Shop'
-    url = '/shop/'
-    weight = 2
+#[[menu.main]]
+#    name = 'Shop'
+#    url = '/shop/'
+#    weight = 2
 [[menu.main]]
     name = 'About'
     url = '/about/'
