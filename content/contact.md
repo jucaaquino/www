@@ -1,9 +1,14 @@
 +++
 title = 'Contact'
 +++
-**Email**
+
+## Email
 
 juca@jucaaquino.com
 
-**Follow Juca**
+<br>
 
+## Follow Juca
+
+![FB](fb.png)
+![Twitter](twitter.png)

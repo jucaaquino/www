@@ -1,10 +1,10 @@
 body {
     font-family: Geist;
     font-size: var(--body-size);
-    max-width: var(--max-width);
-    margin-left: calc((100vw - var(--max-width)) * 0.5);
 
     min-height: 100vh;
+    max-width: var(--max-width);
+    margin: 0 auto 0 calc((100vw - var(--max-width)) * 0.5);
     display: flex;
     flex-direction: column;
 }
@@ -13,29 +13,30 @@ p {
     hyphens: auto;
 }
 
-.header {
+header {
     padding-top: var(--gap);
     padding-bottom: var(--gap);
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
 }
 
 .logo a {
-    font-size: var(--logo-size);
+    font-size: 2em;
     text-decoration: none;
     color: black;
 }
 
 .menu {
     display: flex;
-    line-height: calc(var(--logo-size) * 1.5);
 }
 
 .menu li {
-    margin-right: var(--menu-size);
+    margin-right: 1.5em;
+    display: flex;
+    align-items: center;
 }
 
 .menu li:last-child {
@@ -43,7 +44,7 @@ p {
 }
 
 .menu a {
-    font-size: var(--menu-size);
+    font-size: 1.5em;
     text-decoration: none;
     color: grey;
 }
@@ -56,27 +57,17 @@ p {
     color: black;
 }
 
-.main {
-}
-
-.main img {
-}
-
-.footer {
+footer {
     color: grey;
     text-align: center;
-    font-size: var(--foot-size);
+    font-size: 0.83em;
     margin-top: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    line-height: 2;
 }
 
 
 :root {
-    --logo-size: 50px;
-    --menu-size: 25px; 
     --body-size: 18px;
-    --foot-size: 15px;
 
     --max-width: 800px;
 
@@ -85,12 +76,9 @@ p {
 }
 
 
-@media (max-width: 1040px) {
+@media (max-width: 840px) {
     :root {
-        --logo-size: 40px;
-        --menu-size: 20px;
-        --body-size: 14px;
-        --foot-size: 10px;
+        --body-size: 15px;
 
         --gap: 24px;
         --margin: 20px;
@@ -102,7 +90,6 @@ p {
         line-height: inherit;
     } 
     body {
-        margin-left: var(--margin);
-        margin-right: var(--margin);
+        margin: 0 var(--margin) 0 var(--margin);
     }
 }

@@ -2,5 +2,4 @@
 <br>
 <br>
 
-![alt](/painting.jpeg)
-🚨THIS SITE IS UNDER CONSTRUCTION🚨
+![alt](/painting2.jpg)

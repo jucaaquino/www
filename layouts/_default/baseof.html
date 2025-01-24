@@ -10,8 +10,8 @@
         <link rel="icon" href="/favicon.ico">
     </head>
     <body>
-        <header class="header">
-            <nav class="nav">
+        <header>
+            <nav>
                 <h1 class="logo"><a href="/">{{ site.Title }}</a></h1>
                 <ul class="menu">
                     {{ $currentPage := . }}
@@ -26,11 +26,11 @@
             </nav>
         </header>
 
-        <main class="main">
+        <main>
             {{ block "main" . }}{{ end }}
         </main>
 
-        <footer class="footer">
+        <footer>
             <p>© {{ now.Year }} Juca Aquino. All rights reserved.</p>
         </footer>
     </body>
