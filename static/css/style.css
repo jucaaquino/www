@@ -1,23 +1,27 @@
 body {
     font-family: Geist;
     font-size: var(--body-size);
-
     min-height: 100vh;
-    max-width: var(--max-width);
-    margin: 0 auto 0 calc((100vw - var(--max-width)) * 0.5);
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
-
 header {
-    padding-top: var(--gap);
-    padding-bottom: var(--gap);
+    width: var(--header-width);
+    padding: 0 var(--gap) 0 var(--gap);
+}
+
+main {
+    width: var(--main-width);
+    padding: 0 var(--gap) 0 var(--gap);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    padding-top: var(--gap);
+    padding-bottom: var(--gap);
 }
 
 .logo a {
@@ -59,16 +63,6 @@ p {
     margin-bottom: 1em;
 }
 
-main {
-    width: 600px;
-    margin: 0 auto 0 auto;
-}
-
-
-.home {
-    width: 800px;
-}
-
 footer {
     color: grey;
     text-align: center;
@@ -100,30 +94,20 @@ footer {
 :root {
     --body-size: 16px;
 
-    --max-width: 900px;
+    --header-width: min(940px, 100vw);
+    --main-width: min(640px, 100vw);
 
-    --gap: 60px;
-    --margin: 20px;
+    --gap: 20px;
 }
 
 
 @media (max-width: 940px) {
     :root {
         --body-size: 14px;
-
-        --gap: 24px;
-        --margin: 20px;
+        --header-width: min(var(--main-width), 100vw);
     }
 
     nav {
         flex-direction: column;
-    }
-
-    body {
-        margin: 0 var(--margin) 0 var(--margin);
-    }
-
-    main {
-        width: auto;
     }
 }

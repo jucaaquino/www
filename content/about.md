@@ -18,6 +18,7 @@ often more compelling than the intended results. Juca has
 done volunteering work for the Winnipeg Art Gallery, Plug 
 In ICA and Art City.
 
-Juca was born in São Paulo in 2004 and currently lives and works in Winnipeg, MB, Canada
+Juca was born in São Paulo in 2004 and currently lives and works in Winnipeg, MB, Canada.
 
-**[Download CV](/cv/aquino-cv.pdf)**
+[Download CV](/cv/aquino-cv.pdf)
+

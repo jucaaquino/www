@@ -2,13 +2,11 @@
 title = 'Contact'
 +++
 
-# Email
+## Email
 
 juca@jucaaquino.com
 
-<br>
+## Follow Juca
 
-# Follow Juca
-
-![instagram](/instagram.svg)
-![github](/github.svg)
+[instagram.com/jucaqi](https://instagram.com/jucaqi)  
+[github.com/jucaqi](https://github.com/jucaqi)
