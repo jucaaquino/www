@@ -20,8 +20,7 @@ main {
 nav {
     display: flex;
     justify-content: space-between;
-    padding-top: var(--gap);
-    padding-bottom: var(--gap);
+    padding: var(--nav-padding) 0 var(--nav-padding) 0;
 }
 
 .logo a {
@@ -98,13 +97,14 @@ footer {
     --main-width: min(640px, 100vw);
 
     --gap: 20px;
+    --nav-padding: 50px;
 }
-
 
 @media (max-width: 940px) {
     :root {
         --body-size: 14px;
         --header-width: min(var(--main-width), 100vw);
+        --nav-padding: var(--gap);
     }
 
     nav {
