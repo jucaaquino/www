@@ -56,12 +56,14 @@ nav {
 
 p {
     hyphens: auto;
+    margin-bottom: 1em;
 }
 
 main {
     width: 600px;
     margin: 0 auto 0 auto;
 }
+
 
 .home {
     width: 800px;
@@ -75,8 +77,28 @@ footer {
     line-height: 2;
 }
 
+.work-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+ 
+.work-list img {
+    width: 200px;
+}
+
+.work-list a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.work-list img:hover {
+    filter: brightness(110%);
+}
+
 :root {
-    --body-size: 18px;
+    --body-size: 16px;
 
     --max-width: 900px;
 
@@ -85,9 +107,9 @@ footer {
 }
 
 
-@media (max-width: 840px) {
+@media (max-width: 940px) {
     :root {
-        --body-size: 15px;
+        --body-size: 14px;
 
         --gap: 24px;
         --margin: 20px;

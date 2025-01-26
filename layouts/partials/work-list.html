@@ -1,0 +1,10 @@
+<ul class="work-list"> 
+    {{ range (where .Site.RegularPages "Type" "in" "work") }}
+        <li>
+            <a href="{{ .RelPermalink }}">
+                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} thumbnail"></img>
+                <div>{{ .Title }}</div>
+            </a>
+        </li>
+    {{ end }}
+</ul>

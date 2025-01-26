@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Juca Aquino">
-        <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+        <meta name="author" content="{{ .Site.Params.author }}">
+        <meta name="description" content="{{ .Site.Params.description }}">
+        <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/fonts.css">
         <link rel="stylesheet" href="/css/style.css">
@@ -26,11 +27,9 @@
                 </ul>
             </nav>
         </header>
-
         <main>
             {{ block "main" . }}{{ end }}
         </main>
-
         <footer>
             <p>© {{ now.Year }} Juca Aquino. All rights reserved.</p>
         </footer>

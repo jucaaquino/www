@@ -1,13 +1,7 @@
 +++
 title = "Past Work"
-date = 2023
+weight = 2
+thumbnail = "https://placehold.co/100x100"
 +++
 
-![alt](//via.placeholder.com/640x150)
-
 Description...
-
-### Tech used
-* item
-* item
-* item

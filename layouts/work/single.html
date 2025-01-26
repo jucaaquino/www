@@ -1,18 +1,4 @@
 {{ define "main" }}
-<div class="project-container">
-    <section class="project">
-        <h2>{{ .Title }}</h2>
-        {{ .Content }}
-    </section>
-
-    <section class="project-list">
-        <!--<h2>Work</h2>-->
-        <br>
-        <ul>
-            {{ range (where .Site.RegularPages "Type" "in" "work") }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            {{ end }}
-        </ul>
-    </section>
-</div>
+    {{ .Content }}
+    {{ partial "work-list.html" . }}
 {{ end }}

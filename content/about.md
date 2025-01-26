@@ -2,9 +2,7 @@
 title = 'About'
 +++
 
-![alt](/portrait2.jpeg)
-
-<br>
+![alt](/portrait2.jpg)
 
 Juca Aquino is a Brazilian-Canadian artist currently 
 studying at the University of Manitoba. Juca’s artistic 
@@ -20,6 +18,6 @@ often more compelling than the intended results. Juca has
 done volunteering work for the Winnipeg Art Gallery, Plug 
 In ICA and Art City.
 
-<br>
+Juca was born in São Paulo in 2004 and currently lives and works in Winnipeg, MB, Canada
 
 **[Download CV](/cv/aquino-cv.pdf)**
