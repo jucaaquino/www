@@ -90,6 +90,16 @@ footer {
     filter: brightness(110%);
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons img{
+    height: 50px;
+    margin: 0 var(--gap) 0 var(--gap);
+}
+
 :root {
     --body-size: 16px;
 
