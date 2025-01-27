@@ -27,7 +27,7 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main{{ if .IsHome }} class="home-page"{{ else }} class="normal-page"{{ end }}>
             {{ block "main" . }}{{ end }}
         </main>
         <footer>
