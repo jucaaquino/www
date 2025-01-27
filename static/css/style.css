@@ -72,7 +72,7 @@ footer {
     text-align: center;
     font-size: 0.83em;
     margin-top: auto;
-    line-height: 2;
+    margin-bottom: var(--gap);
 }
 
 .work-list {
@@ -97,12 +97,24 @@ footer {
 
 .social-icons {
     display: flex;
+    flex-direction: column;
 }
 
+
+
 .social-icons img {
-    height: 50px;
-    margin: 0.5em 1em 0 0;
+    height: 3em;
     /*filter: invert(60%) sepia(0%) saturate(13%) hue-rotate(135deg) brightness(84%) contrast(97%);*/
+    margin-right: 1em;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: 1em;
 }
 
 :root {

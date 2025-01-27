@@ -11,10 +11,12 @@ title = 'Contact'
 ## Follow Juca
 
 <div class="social-icons">
-    <a href="https://instagram.com/jucaqi" target="_blank">
+    <a href="https://instagram.com/jucaqi" target="_blank" class="social-link">
         <img src="/instagram.svg">
+        Instagram
     </a>
-    <a href="https://github.com/jucaqi" target="_blank">
+    <a href="https://github.com/jucaqi" target="_blank" class="social-link">
         <img src="/github.svg">
+        GitHub
     </a>
 </div>
