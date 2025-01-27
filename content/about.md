@@ -20,7 +20,6 @@ In ICA and Art City.
 
 Juca was born in São Paulo in 2004 and currently lives and works in Winnipeg, MB, Canada.
 
-Raised by architect parents.
+<!--Raised by architect parents.-->
 
-[Download CV](/cv/aquino-cv.pdf)
-
+<a href="/cv/aquino-cv.pdf" target="_blank">Download CV</a>

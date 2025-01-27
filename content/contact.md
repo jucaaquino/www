@@ -8,5 +8,11 @@ juca@jucaaquino.com
 
 ## Follow Juca
 
-[instagram.com/jucaqi](https://instagram.com/jucaqi)  
-[github.com/jucaqi](https://github.com/jucaqi)
+<div class="social-icons">
+    <a href="https://instagram.com/jucaqi" target="_blank">
+        <img src="/instagram.svg">
+    </a>
+    <a href="https://github.com/jucaqi" target="_blank">
+        <img src="/github.svg">
+    </a>
+</div>
