@@ -2,9 +2,11 @@
 title = 'Contact'
 +++
 
+![Juca Aquino Portrait](/contact.jpg)
+
 ## Email
 
-juca@jucaaquino.com
+<p>juca@jucaaquino.com</p>
 
 ## Follow Juca
 

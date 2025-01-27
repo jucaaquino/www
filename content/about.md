@@ -2,7 +2,7 @@
 title = 'About'
 +++
 
-![alt](/portrait2.jpg)
+![Juca Aquino Portrait](/portrait2.jpg)
 
 Juca Aquino is a Brazilian-Canadian artist currently 
 studying at the University of Manitoba. Juca’s artistic 
@@ -19,6 +19,14 @@ done volunteering work for the Winnipeg Art Gallery, Plug
 In ICA and Art City.
 
 Juca was born in São Paulo in 2004 and currently lives and works in Winnipeg, MB, Canada.
+
+<!--Imogene Strauss is a multidisciplinary creative director and designer. Born in
+New York City, she lives and works in Los Angeles. Raised by artist parents and
+constantly surrounded by inspiration, Imogene began working in the arts in her
+early 20s managing Solange and Blood Orange and serving as a music
+curator—notably of the legendary MoMA PS1 WarmUp series—alongside other
+projects. Her work as a creative director evolved naturally out of the deep
+artistic relationships she fostered with her management clients. 
 
 <!--Raised by architect parents.-->
 

@@ -7,6 +7,10 @@ body {
     flex-direction: column;
 }
 
+a {
+    color: black;
+}
+
 header {
     width: var(--header-width);
     padding: 0 var(--gap) 0 var(--gap);
