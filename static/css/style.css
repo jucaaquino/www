@@ -68,7 +68,6 @@ p {
 }
 
 footer {
-    color: grey;
     text-align: center;
     font-size: 0.83em;
     margin-top: auto;
@@ -103,7 +102,7 @@ footer {
 .social-icons img {
     height: 60px;
     margin: 0 var(--gap) 0 var(--gap);
-    filter: invert(60%) sepia(0%) saturate(13%) hue-rotate(135deg) brightness(84%) contrast(97%);
+    /*filter: invert(60%) sepia(0%) saturate(13%) hue-rotate(135deg) brightness(84%) contrast(97%);*/
 }
 
 :root {
