@@ -2,7 +2,7 @@
 title = 'Contact'
 +++
 
-![Juca Aquino Portrait](/contact.jpg)
+![Juca Aquino artist portrait](/contact.jpg)
 
 ## Email
 
@@ -10,13 +10,15 @@ title = 'Contact'
 
 ## Follow Juca
 
-<div class="social-icons">
-    <a href="https://instagram.com/jucaqi" target="_blank" class="social-link">
-        <img src="/instagram.svg">
-        Instagram
-    </a>
-    <a href="https://github.com/jucaqi" target="_blank" class="social-link">
-        <img src="/github.svg">
-        GitHub
-    </a>
-</div>
+<ul class="social-icons">
+    <li>
+        <a href="https://instagram.com/jucaqi" target="_blank" class="social-link">
+            <img src="/instagram.svg" alt="Instagram social media icon">
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/jucaqi" target="_blank" class="social-link">
+            <img src="/github.svg" alt="Github social media icon">
+        </a>
+    </li>
+</ul>
