@@ -1,3 +1,8 @@
+/*html {
+    overflow-x: hidden;
+    margin-right: calc(100% - 100vw);
+}*/
+
 body {
     font-family: Geist;
     font-size: var(--body-size);
@@ -12,7 +17,7 @@ header {
     padding: 0 var(--gap) 0 var(--gap);
 }
 
-.normal-page {
+.normal-page, .list-page {
     width: var(--main-width);
     padding: 0 var(--gap) 0 var(--gap);
 }
@@ -72,28 +77,39 @@ footer {
     text-align: center;
     font-size: 0.83em;
     margin-top: auto;
+    padding-top: var(--gap);
     margin-bottom: var(--gap);
 }
 
+
+
 .work-list {
     display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
+    row-gap: 1em;
+    column-gap: 3em;
+    grid-template-columns: 1fr 1fr;
 }
- 
+
 .work-list img {
-    width: 200px;
+    width: 100%;
+    object-fit: fill;
 }
 
 .work-list a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    font-size: 1.5em;
 }
-
 
 .work-list img:hover {
-    filter: brightness(110%);
+    filter: brightness(90%);
 }
+
+
 
 .social-icons {
     display: flex;
@@ -110,12 +126,6 @@ footer {
 .social-link {
     display: flex;
     align-items: center;
-}
-
-.test {
-    background-color: black;
-    height: 100px;
-    width: 50ch;
 }
 
 :root {
