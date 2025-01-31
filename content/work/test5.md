@@ -1,6 +1,6 @@
 +++
 title = "Test 5"
-thumbnail = "/thumbnail1.jpg"
+thumbnail = "https://placehold.co/100x100"
 weight = -5
 +++
 

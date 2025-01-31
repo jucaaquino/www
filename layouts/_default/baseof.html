@@ -3,28 +3,38 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="{{ .Site.Params.author }}">
+        <meta name="author" content="Juca Aquino">
         <meta name="description" content="
             {{- with .Page.Description -}}
-            {{ . }}
+                {{ . }}
             {{- else -}}
-            {{ .Site.Params.description }}
+                {{ .Site.Params.description }}
             {{- end -}}">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/fonts.css">
         <link rel="stylesheet" href="/css/style.css">
         <link rel="icon" href="/favicon.ico">
-        <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
+        <title>
+            {{- if .IsHome -}}
+                {{ site.Title }}
+            {{- else -}}
+                {{ .Title }} - {{ site.Title }}
+            {{- end -}}
+        </title>
     </head>
     <body>
         <header>
             <nav>
-                <h1 class="logo"><a href="/">{{ site.Title }}</a></h1>
+                <h1 class="logo">
+                    <a href="/">
+                        {{- site.Title -}}
+                    </a>
+                </h1>
                 <ul class="menu">
-                    {{- $currentPage := . }}
+                    {{- $page := . }}
                     {{- range .Site.Menus.main }}
                     <li>
-                        <a href="{{ .URL }}"{{ if eq .URL $currentPage.RelPermalink }} class="active"{{ end }}>
+                        <a href="{{ .URL }}"{{ if eq .URL $page.RelPermalink }} class="active"{{ end }}>
                             {{- .Name -}}
                         </a>
                     </li>
