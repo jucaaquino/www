@@ -1,5 +1,19 @@
-{{ define "main" }}
-    {{ .Content }}
-    <h1>Work</h1>
-    {{ partial "work-list.html" . }}
+{{- define "main" }}
+<div class="content">
+{{ .Content }}
+</div>
+{{ $pages := .CurrentSection.Pages -}}
+<div class="prev-next">
+    {{- with $pages.Prev . }}
+    <a href="{{ .RelPermalink }}">< Prev</a>
+    {{- else }}
+    <a></a>
+    {{- end }}
+    {{- with $pages.Next . }}
+    <a href="{{ .RelPermalink }}">Next ></a>
+    {{- else }}
+    <a></a>
+    {{- end }}
+</div>
+{{ partial "work-list.html" . }}
 {{ end }}

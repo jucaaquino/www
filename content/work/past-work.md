@@ -1,7 +1,8 @@
 +++
 title = "Past Work"
-weight = 2
-thumbnail = "https://placehold.co/100x100"
+weight = 1
+thumbnail = "/thumbnail1.jpg"
 +++
 
+# Past Work
 Description...

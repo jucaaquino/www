@@ -1,9 +1,10 @@
 +++
 title = "Test 2"
-thumbnail = "https://placehold.co/100x100"
+thumbnail = "/thumbnail1.jpg"
+weight = -2
 +++
 
-![alt](//via.placeholder.com/640x150)
+# Test 2
 
 Description...
 

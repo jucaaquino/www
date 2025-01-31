@@ -1,5 +1,6 @@
 +++
 title = 'About'
+description = 'Juca Aquino artist portfolio website homepage'
 +++
 
 ![Juca Aquino Portrait](/portrait2.jpg)
