@@ -99,6 +99,11 @@ main {
         figure { margin-bottom: 0; }
     }
 
+    .contact-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .social-icons {
         display: flex;
         img {
