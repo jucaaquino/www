@@ -6,8 +6,6 @@ weight = -1
 
 # Test 1
 
-Description...
-
 ### Tech used
 * item
 * item
