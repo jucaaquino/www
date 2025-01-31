@@ -2,11 +2,7 @@ baseURL = 'https://jucaaquino.com/'
 languageCode = 'en-us'
 title = 'Juca Aquino'
 pluralizelisttitles = false
-markup.goldmark.renderer.unsafe= true
-
-[params]
-    author = "Juca Aquino"
-    description = "Juca Aquino artist portfolio website"
+markup.goldmark.renderer.unsafe = true
 
 [[menu.main]]
     name = 'Work'
@@ -15,8 +11,8 @@ markup.goldmark.renderer.unsafe= true
 [[menu.main]]
     name = 'About'
     url = '/about/'
-    weight = 3
+    weight = 2
 [[menu.main]]
     name = 'Contact'
     url = '/contact/'
-    weight = 4
+    weight = 3
