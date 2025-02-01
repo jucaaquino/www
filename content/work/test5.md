@@ -8,7 +8,3 @@ weight = -5
 
 Description...
 
-### Tech used
-* item
-* item
-* item

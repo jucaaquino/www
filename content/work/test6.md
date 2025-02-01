@@ -1,5 +1,5 @@
 +++
-title = "Test6"
+title = "Test 6"
 weight = -6
 thumbnail = "https://placehold.co/100x100"
 summary = "Summary of the Test6 project"
