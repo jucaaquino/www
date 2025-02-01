@@ -3,7 +3,7 @@ title = 'Contact'
 description = 'Juca Aquino artist portfolio website contact page'
 +++
 
-![Juca Aquino artist portrait](/contact.jpg)
+![Juca Aquino artist portrait](/images/contact.jpg)
 
 ## Email
 
