@@ -3,7 +3,7 @@ title = 'About'
 description = 'Juca Aquino artist portfolio website homepage'
 +++
 
-![Juca Aquino Portrait](/portrait2.jpg)
+![Juca Aquino Portrait](/images/portrait.jpg)
 
 Juca Aquino is a Brazilian-Canadian artist currently studying at the University
 of Manitoba. Juca’s artistic practice is informed by Brazilian art and
