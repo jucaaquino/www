@@ -6,7 +6,3 @@ weight = -1
 
 # Test 1
 
-### Tech used
-* item
-* item
-* item
