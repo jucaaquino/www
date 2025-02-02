@@ -19,7 +19,6 @@ header {
         justify-content: space-between;
         padding: 2em 0 2em 0;
 
-
         #logo { 
             font-size: 3em; 
             a { 
@@ -150,12 +149,11 @@ footer {
     }
 
     nav { flex-direction: column; }
-
-    main .work-list { grid-template-columns: 1fr 1fr; }
+    main #work-list { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 370px) {
 header nav {
-    .logo { font-size: 2.5em; }
-    .menu { font-size: 1em; }
+    #logo { font-size: 2.5em; }
+    #menu { font-size: 1em; }
 }
