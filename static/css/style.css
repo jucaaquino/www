@@ -106,7 +106,6 @@ main {
 
         figcaption { 
             height: 2em; 
-            a { hyphens: none; }
         }
     }
 
@@ -120,6 +119,7 @@ main {
             color: var(--light);
             font-size: 0.83em;
             height: 4em;
+            hyphens: none;
         }
     }
 }
@@ -152,9 +152,7 @@ footer {
 
     nav { flex-direction: column; }
 
-    main {
-        .work-list { grid-template-columns: 1fr 1fr; }
-    }
+    main .work-list { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 370px) {
