@@ -9,62 +9,62 @@ description = 'All of the Above, a project by Juca Aquino'
 
 {{< figure
   src="images/all-of-the-above-1.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#147*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-2.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#052*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-3.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#025*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-4.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#129*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-5.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#126*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-6.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#144*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-7.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#169*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-8.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#105*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-9.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#154*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-10.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#100*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-11.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#055*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
   src="images/all-of-the-above-12.jpg"
-  caption="*All of the Above*, 2024, acrylic on paper, 26x20\""
+  caption="*#168*, 2024, acrylic on paper, 26x20\""
 >}}
 
 {{< figure
