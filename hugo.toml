@@ -2,7 +2,10 @@ baseURL = 'https://jucaaquino.com/'
 languageCode = 'en-us'
 title = 'Juca Aquino'
 pluralizelisttitles = false
-markup.goldmark.renderer.unsafe = true
+
+[markup.goldmark]
+    renderer.unsafe = true
+    extensions.linkify = false
 
 [[menu.main]]
     name = 'Work'
