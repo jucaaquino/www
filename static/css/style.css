@@ -60,7 +60,7 @@ main {
     .content { 
         width: var(--content-width); 
 
-        p {
+        > p {
             hyphens: auto;
             margin-bottom: 1em;
         }
@@ -119,7 +119,6 @@ main {
             color: var(--light);
             font-size: 0.83em;
             height: 4em;
-            p { hyphens: none !important; }
         }
     }
 }
