@@ -119,7 +119,7 @@ main {
             color: var(--light);
             font-size: 0.83em;
             height: 4em;
-            hyphens: none;
+            p { hyphens: none; }
         }
     }
 }
