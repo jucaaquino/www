@@ -7,7 +7,7 @@ description = 'Juca Aquino artist portfolio website contact page'
 
 ## Email
 
-<p>juca@jucaaquino.com</p>
+juca@jucaaquino.com
 
 ## Follow Juca
 

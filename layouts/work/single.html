@@ -1,9 +1,9 @@
 {{- define "main" }}
-<div class="content">
+<div id="content">
 {{ .Content }}
 </div>
 {{ $pages := .CurrentSection.Pages -}}
-<div class="prev-next">
+<div id="prev-next">
     {{- with $pages.Prev . }}
     <a href="{{ .RelPermalink }}">< Prev</a>
     {{- else }}
