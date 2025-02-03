@@ -76,7 +76,6 @@ description = 'All of the Above, a project by Juca Aquino'
     src="images/all-of-the-above-installation-2.jpg"
     caption=`Left: *Dropcloth #1*, 2024, mixed media on cloth, 10x5'  
     Right: *Dropcloth #2*, 2024, mixed media on cloth, 10x5'`
-
 >}}
 
 {{< figure
@@ -87,4 +86,49 @@ description = 'All of the Above, a project by Juca Aquino'
 {{< figure
     src="images/all-of-the-above-detail-2.jpg"
     caption=`*Dropcloth #2* (detail), 2024, mixed media on cloth, 10x5'`
+>}}
+
+{{< figure
+    src="images/all-of-the-above-installation-3.jpg"
+    caption=`Left: *Untitled*, 2024, mixed media on paper, 10x5'  
+    Right: *Untitled*, 2024, mixed media on paper, 10x5'`
+>}}
+
+{{< figure
+    src="images/all-of-the-above-detail-3.jpg"
+    caption=`*Untitled* (detail), 2024, mixed media on paper, 10x5'`
+>}}
+
+{{< figure
+    src="images/all-of-the-above-detail-4.jpg"
+    caption=`*Untitled* (detail), 2024, mixed media on paper, 10x5'`
+>}}
+
+{{< figure
+    src="images/all-of-the-above-installation-4.jpg"
+    caption=`Installation view, "All of the Above," 2024, School of Art Student Gallery, Winnipeg MB`
+>}}
+
+{{< figure
+    src="images/stripe-1.jpg"
+    caption=`*Untitled*, 2024, oil and acrylic on paper, 22x30"`
+    class="tall"
+>}}
+
+{{< figure
+    src="images/stripe-2.jpg"
+    caption=`*Untitled*, 2024, oil and acrylic on paper, 22x30"`
+    class="tall"
+>}}
+
+{{< figure
+    src="images/stripe-3.jpg"
+    caption=`*Untitled*, 2024, oil and acrylic on paper, 22x30"`
+    class="tall"
+>}}
+
+{{< figure
+    src="images/black-white.jpg"
+    caption=`Left: *Untitled*, 2024, oil and acrylic on paper, 22x30"  
+    Right: *Untitled*, 2024, oil and acrylic on paper, 22x30"`
 >}}
