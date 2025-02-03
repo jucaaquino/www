@@ -81,7 +81,7 @@ main {
         width: var(--major-width);
         display: flex;
         justify-content: space-between;
-        margin-top: 2em;
+        margin-top: 1em;
         a { 
             font-size: 0.83em;
             color: var(--light);
