@@ -17,7 +17,8 @@ header {
         width: var(--major-width);
         display: flex;
         justify-content: space-between;
-        padding: 2em 0 2em 0;
+        padding-top: 2em;
+        padding-bottom: 2em;
 
         #logo { 
             font-size: 3em; 
@@ -69,7 +70,10 @@ main {
         .social-icons {
             display: flex;
             img { height: 2em; }
-            li { margin: 0.5em 1.5em 0 0; }
+            li { 
+                margin-top: 0.5em;
+                margin-right: 1.5em;
+            }
         }
     }
 
@@ -117,8 +121,14 @@ main {
         figcaption {
             color: var(--light);
             font-size: 0.83em;
-            margin-bottom: 3em;
+            margin-bottom: 4em;
         }
+    }
+ 
+    .tall {
+        width: var(--minor-minor-width);
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -135,21 +145,27 @@ footer {
     --body-size: 18px;
     --major-width: 900px;
     --minor-width: 700px;
+    --minor-minor-width: 550px;
 
     --content-width: var(--minor-width);
     --light: #595959;
     --lighter: #767676;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
     :root {
         --body-size: 16px;
         --major-width: min(var(--minor-width), 100vw - 2em);
+        --minor-minor-width: var(--major-width);
         --content-width: var(--major-width);
     }
 
     nav { flex-direction: column; }
-    main #work-list { grid-template-columns: 1fr 1fr; }
+    main { 
+        figure figcaption { margin-bottom: 3em; }
+        #work-list { grid-template-columns: 1fr 1fr; }
+    }
+     
 }
 
 @media (max-width: 370px) {

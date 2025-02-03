@@ -1,25 +1,20 @@
 +++
 title = 'About'
-description = 'Juca Aquino artist portfolio website homepage'
+description = 'Juca Aquino artist portfolio website about bio section'
 +++
 
 ![Juca Aquino Portrait](/images/portrait.jpg)
 
-Juca Aquino is a Brazilian-Canadian artist currently studying at the University
-of Manitoba. Juca’s artistic practice is informed by Brazilian art and
-architecture like the Copacabana boardwalk, Ibirapuera Park and the skyscrapers
-on Paulista avenue. He first became interested in screenprinting when he saw
-Takashi Murakami’s maximalist murals at a retrospective in the Vancouver Art
-Gallery. Juca became fascinated with using code as a tool for creating visual
-art when he noticed that unintended results caused by bugs in the code are
-often more compelling than the intended results. Juca has done volunteering
-work for the Winnipeg Art Gallery, Plug In ICA and Art City.
-
-Juca was born in São Paulo in 2004 and currently lives and works in Winnipeg, MB, Canada.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel est in diam pulvinar rutrum eget sit amet enim. Duis magna purus, tincidunt eu finibus id, gravida in nisl. In nec ex vitae lorem mattis faucibus. Sed eu velit enim. Cras in nulla bibendum, sodales orci vitae, aliquam nibh. Donec aliquet ut eros non lacinia. Praesent tempus augue eu ex efficitur, eget interdum nunc venenatis. Praesent tincidunt diam libero, vitae vulputate dolor mollis vitae. Proin finibus tellus in arcu varius, eu mattis velit commodo. Proin bibendum nisi ut tellus egestas iaculis. Nam ac fringilla ex, auctor euismod quam. In quis ultrices purus. Aliquam in turpis congue, volutpat risus nec, semper magna.
-
-
+Juca Aquino is a painter currently living and working in Winnipeg MB. Born in
+São Paulo and raised by architect parents, Juca draws from Brazilian Modernist
+architecture, landscaping and painting. In Juca's most recent body of work "All
+of the Above," he used mediums like silkscreen, relief printing and spray
+painting. These techniques allowed him to expedite the painting process,
+while also allowing for improvisation and imprecision. He produced over
+200 paintings some of which were exhibited at La Maison des artistes visuels
+francophones, School of Art Student Gallery (University of Manitoba) and Martha
+Street Studio. Juca has worked for Plug In ICA as a private contractor and for
+Winnipeg Film Group as a coding workshop instructor.
 
 <!--
 Imogene Strauss is a multidisciplinary creative director and designer. Born in
@@ -29,7 +24,6 @@ early 20s managing Solange and Blood Orange and serving as a music
 curator—notably of the legendary MoMA PS1 WarmUp series—alongside other
 projects. Her work as a creative director evolved naturally out of the deep
 artistic relationships she fostered with her management clients. 
-
 
 
 M.E. Sparks (she/her) is an artist and educator currently living in Winnipeg,
@@ -48,7 +42,6 @@ Nova Scotia. Recent exhibitions include and a Rag in the Other at the
 Alternator Centre for Contemporary Art (Kelowna, 2022), We can only hint at
 this with words at the Gordon Smith Gallery of Canadian Art (North Vancouver,
 2022) and A Fine Line at Trapp Projects (Vancouver, 2021).
-Raised by architect parents.
 
 
 
