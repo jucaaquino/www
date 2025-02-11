@@ -57,23 +57,26 @@ main {
     flex-direction: column;
     align-items: center;
     
-    #content { 
+    #content {
         width: var(--content-width); 
 
-        > p {
-            hyphens: auto;
-            margin-bottom: 1em;
-        }
 
         h1 { text-wrap: stable; }
 
-        .social-icons {
-            display: flex;
-            img { height: 2em; }
-            li { 
-                margin-top: 0.5em;
-                margin-right: 1.5em;
-            }
+    }
+
+    > p {
+        hyphens: auto;
+        margin-bottom: 1em;
+    }
+
+    .social-icons {
+        display: flex;
+        margin-right: auto;
+        img { height: 2em; }
+        li { 
+            margin-top: 0.5em;
+            margin-right: 1.5em;
         }
     }
 
