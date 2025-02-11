@@ -69,11 +69,9 @@ main {
 
     .social-icons {
         display: flex;
+        margin-top: 0.5em;
         img { height: 2em; }
-        li { 
-            margin-top: 0.5em;
-            margin-right: 1.5em;
-        }
+        li:not(:last-child) { margin-right: 1.5em; }
     }
 
     #prev-next {
@@ -132,7 +130,6 @@ main {
 }
 
 footer {
-    text-align: center;
     font-size: 0.83em;
     color: var(--light);
     margin-top: auto;
