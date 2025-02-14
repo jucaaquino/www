@@ -62,7 +62,7 @@ main {
         h1 { text-wrap: stable; }
     }
 
-    > p {
+    p {
         hyphens: auto;
         margin-bottom: 1em;
     }
