@@ -132,3 +132,23 @@ description = 'All of the Above, a project by Juca Aquino'
     caption=`Left: *Untitled*, 2024, oil and acrylic on paper, 22x30"  
     Right: *Untitled*, 2024, oil and acrylic on paper, 22x30"`
 >}}
+
+{{< figure
+    src="images/all-of-the-above-installation-5.jpg"
+    caption=`Installation view, "All of the Above," 2024, School of Art Student Gallery, Winnipeg MB`
+>}}
+
+{{< figure
+    src="images/all-of-the-above-installation-8.jpg"
+    caption=`Installation view, "All of the Above," 2024, School of Art Student Gallery, Winnipeg MB`
+>}}
+
+{{< figure
+    src="images/all-of-the-above-installation-6.jpg"
+    caption=`Installation view, "All of the Above," 2024, School of Art Student Gallery, Winnipeg MB`
+>}}
+
+{{< figure
+    src="images/all-of-the-above-installation-9.jpg"
+    caption=`Installation view, "All of the Above," 2024, School of Art Student Gallery, Winnipeg MB`
+>}}
