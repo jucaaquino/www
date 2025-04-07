@@ -13,12 +13,12 @@ juca@jucaaquino.com
 
 <ul class="social-icons">
     <li>
-        <a href="https://instagram.com/jucaqi" target="_blank">
+        <a href="https://instagram.com/seujucaaquino" target="_blank">
             <img src="/images/instagram.svg" alt="Instagram social media icon">
         </a>
     </li>
     <li>
-        <a href="https://github.com/jucaqi" target="_blank">
+        <a href="https://github.com/seujucaaquino" target="_blank">
             <img src="/images/github.svg" alt="Github social media icon">
         </a>
     </li>
