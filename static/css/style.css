@@ -70,7 +70,7 @@ main {
     .social-icons {
         display: flex;
         margin-top: 0.5em;
-        img { height: 2em; }
+        img { height: 2.5em; }
         li:not(:last-child) { margin-right: 1.5em; }
     }
 
