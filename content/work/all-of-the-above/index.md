@@ -8,6 +8,11 @@ description = 'All of the Above, a project by Juca Aquino'
 # All of the Above, 2024
 
 {{< figure
+    src="images/all-of-the-above-installation-1.jpg"
+    caption=`Installation view, "All of the Above," 2024, School of Art Student Gallery, Winnipeg MB`
+>}}
+
+{{< figure
     src="images/all-of-the-above-1.jpg"
     caption=`*#147*, 2024, acrylic on paper, 26x20"`
 >}}
@@ -65,11 +70,6 @@ description = 'All of the Above, a project by Juca Aquino'
 {{< figure
     src="images/all-of-the-above-12.jpg"
     caption=`*#168*, 2024, acrylic on paper, 26x20"`
->}}
-
-{{< figure
-    src="images/all-of-the-above-installation-1.jpg"
-    caption=`Installation view, "All of the Above," 2024, School of Art Student Gallery, Winnipeg MB`
 >}}
 
 {{< figure
