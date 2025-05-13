@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: Geist;
+    font-family: sans-serif;
     font-size: var(--body-size);
     min-height: 100vh;
     display: flex;
