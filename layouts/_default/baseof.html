@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Juca Aquino">
-        <meta name="description" content="
-            {{- with .Page.Description -}}
-                {{ . }}
-            {{- else -}}
-                {{ .Site.Params.description }}
-            {{- end -}}">
-        <link rel="stylesheet" href="/css/reset.css">
-        <link rel="stylesheet" href="/css/fonts.css">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="icon" href="/favicon.ico">
-        <title>
-            {{- if .IsHome -}}
-                {{ site.Title }}
-            {{- else -}}
-                {{ .Title }} - {{ site.Title }}
-            {{- end -}}
-        </title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <h1 id="logo">
-                    <a href="/">
-                        {{- site.Title -}}
-                    </a>
-                </h1>
-                <ul id="menu">
-                    {{- $page := . }}
-                    {{- range .Site.Menus.main }}
-                    <li>
-                        <a href="{{ .URL }}"{{ if eq .URL $page.RelPermalink }} class="active"{{ end }}>
-                            {{- .Name -}}
-                        </a>
-                    </li>
-                    {{- end }}
-                </ul>
-            </nav>
-        </header>
-        <main>
-            {{- block "main" . -}}{{- end -}}
-        </main>
-        <footer>
-            © {{ now.Year }} Juca Aquino
-        </footer>
-    </body>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Juca Aquino">
+<meta name="description" content="
+{{- with .Page.Description -}}
+{{ . }}
+{{- else -}}
+{{ .Site.Params.description }}
+{{- end -}}">
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- Desktop browsers (including 16x6, 32x32 & 48x48 PNGs) -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!-- Modern browsers (196x196 should cover all modern browsers) -->
+<link rel="icon" type="image/png" href="/favicon.png">
+
+<!-- iOS & other mobile devices (ideally 180x180, at least 120x120) -->
+<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+
+<title>
+{{- if .IsHome -}}
+{{ site.Title }}
+{{- else -}}
+{{ .Title }} - {{ site.Title }}
+{{- end -}}
+</title>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1 id="logo">
+      <a href="/">
+        {{- site.Title -}}
+      </a>
+    </h1>
+
+    <ul id="menu">
+      {{- $page := . }}
+      {{- range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}"{{ if eq .URL $page.RelPermalink }} class="active"{{ end }}>
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </nav>
+</header>
+
+<main>
+{{- block "main" . -}}{{- end -}}
+</main>
+
+<footer>
+© {{ now.Year }} Juca Aquino
+</footer>
+
+</body>
 </html>
