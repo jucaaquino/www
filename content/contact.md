@@ -24,3 +24,12 @@ juca@jucaaquino.com
     </li>
 </ul>
 
+<div class="w-60 center">
+  <form action="https://www.formbackend.com/f/58589a554cf961ea" method="POST">
+    <div class="mt2">
+      <label for="email" class="db mb1">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
