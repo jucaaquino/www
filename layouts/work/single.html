@@ -3,7 +3,7 @@
 {{ .Content }}
 </div>
 {{ $pages := .CurrentSection.Pages -}}
-<div id="prev-next">
+<div>
     {{- with $pages.Prev . }}
     <a href="{{ .RelPermalink }}">< Prev</a>
     {{- else }}
