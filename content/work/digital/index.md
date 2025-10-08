@@ -1,7 +1,7 @@
 +++
 title = 'Digital'
 weight = 1
-thumbnail = "/work/digital/images/thumbnail.jpg"
+thumbnail = "https://placehold.co/1000x667"
 description = 'Digital works by Juca Aquino'
 +++
 
