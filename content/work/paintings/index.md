@@ -1,7 +1,7 @@
 +++
 title = 'Paintings'
 weight = 1
-thumbnail = "/work/paintings/images/thumbnail.jpg"
+thumbnail = "https://placehold.co/1000x667"
 description = 'All of the Above, a project by Juca Aquino'
 +++
 
