@@ -1,0 +1,24 @@
+nav {
+     font-size: 1.5rem;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}
+
+nav h1 {
+     font-weight: bold;
+}
+
+nav ul {
+     display: flex;
+}
+
+nav ul li {
+     margin-left: 1rem;
+}
+
+.active {
+     font-weight: bold;
+}
+
