@@ -1,5 +1,5 @@
 nav {
-     font-size: 1.5rem;
+     font-size: 1.25rem;
      display: flex;
      justify-content: space-between;
      margin-top: 1rem;
@@ -14,8 +14,12 @@ nav ul {
      display: flex;
 }
 
-nav ul li {
-     margin-left: 1rem;
+nav li {
+     margin-left: 2rem;
+}
+
+nav a:hover {
+    font-weight: bold;
 }
 
 .active {

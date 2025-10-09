@@ -1,3 +1,9 @@
 [submodule "static/cv"]
 	path = static/cv
 	url = https://github.com/jucaaquino/cv
+[submodule "static/bio"]
+	path = static/bio
+	url = https://github.com/jucaaquino/bio
+[submodule "static/statement"]
+	path = static/statement
+	url = https://github.com/jucaaquino/statement

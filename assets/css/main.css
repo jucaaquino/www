@@ -29,4 +29,7 @@ p a {
      text-decoration: underline;
 }
 
-
+main h1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
