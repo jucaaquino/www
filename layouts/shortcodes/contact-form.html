@@ -1,14 +1,21 @@
-<form 
-    action="https://api.web3forms.com/submit" 
-    method="POST"
->
+<form action="https://api.web3forms.com/submit" method="POST">
     <input type="hidden" name="access_key" value="0f908048-c279-41bb-b6f2-84d0be59c98e">
-    <input type="text" name="name" required>
-    <input type="email" name="email" required>
-    <textarea name="message" required></textarea>
+    <div>
+        <label>Name</label>
+        <input type="text" name="name" required>
+    </div>
+    <div>
+        <label>Email</label>
+        <input type="email" name="email" required>
+    </div>
+    <div>
+        <label>Message</label>
+        <textarea name="message" required></textarea>
+    </div>
+    <!-- Honeypot Spam Protection -->
     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
     <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-    <button type="submit">
-        Submit Form
-    </button>
+    
+    <button type="submit">Submit Form</button>
 </form>
