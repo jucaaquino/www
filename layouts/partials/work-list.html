@@ -1,11 +1,12 @@
-<ul>
+<ul class="work-list">
     {{- range .CurrentSection.Pages.Reverse }}
     <li>
         <a href="{{ .RelPermalink }}">
-            <figure>
-                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} thumbnail">
-                <figcaption>{{ .Title }}</figcaption>
-            </figure>
+            <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} thumbnail">
+            <h2>{{ .Title | upper }}</h2>
+            <p>{{ .Params.gallery }}</p>
+            <p>{{ .Params.city }}</p>
+            <p>{{ .Params.year }}</p>
         </a>
     </li>
     {{- end }}
