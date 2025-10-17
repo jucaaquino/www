@@ -1,28 +1,31 @@
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-    {{- if .Get "link" -}}
-        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
-    {{- end -}}
-        <img src="{{ .Get "src" }}"
-         {{- if or (.Get "alt") (.Get "caption") }}
-         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-         {{- end -}}
-         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
-         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-    /><!-- Closing img tag -->
-    {{- if .Get "link" }}</a>{{ end -}}
-    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-        <figcaption>
-            {{ with (.Get "title") -}}
-                <h4>{{ . }}</h4>
-            {{- end -}}
-            {{- if or (.Get "caption") (.Get "attr") -}}<p>
-                {{- .Get "caption" | markdownify -}}
-                {{- with .Get "attrlink" }}
-                    <a href="{{ . }}">
-                {{- end -}}
-                {{- .Get "attr" | markdownify -}}
-                {{- if .Get "attrlink" }}</a>{{ end }}</p>
-            {{- end }}
-        </figcaption>
-    {{- end }}
+<a 
+    class="gallery-item" 
+    href="{{ .Get "src" }}" 
+    data-pswp-src="" 
+    data-pswp-width="" 
+    data-pswp-height="" 
+    data-pswp-target="" 
+    title="" 
+>
+
+<figure>
+
+<img 
+    class="lazyload" 
+    width="" 
+    height="" 
+    src="{{ .Get "src" }}" 
+    alt="" 
+/>
+    <figcaption>
+        {{ .Get "title" | upper }}<br>
+        {{ .Get "year" }}<br>
+        {{ .Get "media" }}<br>
+        {{ math.Round (mul (int (.Get "width" )) 2.54) }} x
+        {{ math.Round (mul (int (.Get "height")) 2.54) }} cm |
+        {{ .Get "width"  }} x
+        {{ .Get "height" }} in
+    </figcaption>
 </figure>
+
+</a>
