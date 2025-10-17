@@ -1,0 +1,55 @@
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<!-- TODO: webmanifest -->
+
+<!-- adobe fonts -->
+<link rel="stylesheet" href="https://use.typekit.net/caq6ocm.css" />
+
+<!-- load fonts here -->
+
+<!-- awful hack -->
+{{ if eq .Kind "404" }}
+<title>404</title>
+{{ else }}
+<title>{{ .Title | upper }}</title>
+{{ end }}
+<meta name="author" content="Juca Aquino" />
+<meta 
+    name="description" 
+    content="
+    {{- with .Page.Description -}}
+    {{ . }}
+    {{- else -}}
+    {{ .Site.Params.description }}
+    {{- end -}}"
+/>
+<!--<meta name="keywords" content="M.E. Sparks, painting, art, artist, sparks, me, M.E.">-->
+
+
+
+<!-- open graph goes here -->
+{{ $reset := resources.Get "css/reset.css" }}
+{{ $main := resources.Get "css/main.css" }}
+{{ $header := resources.Get "css/header.css" }}
+{{ $form := resources.Get "css/form.css" }}
+{{ $style := slice $reset $main $header $form | resources.Concat "style.css" }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+<script type="module">
+import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
+const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
+});
+lightbox.init();
+</script>
+
+</head>
