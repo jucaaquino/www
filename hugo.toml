@@ -7,6 +7,7 @@ pluralizelisttitles = false
     renderer.unsafe = true
     extensions.linkify = false
 
+
 [sitemap]
     changeFreq = 'monthly'
     priority = 0.5
@@ -16,11 +17,15 @@ pluralizelisttitles = false
     url = '/work/'
     weight = 1
 [[menu.main]]
+    name = 'Shows'
+    url = '/shows/'
+    weight = 2
+[[menu.main]]
     name = 'About'
     url = '/about/'
-    weight = 2
+    weight = 3
 [[menu.main]]
     name = 'Contact'
     url = '/contact/'
-    weight = 3
+    weight = 4
 

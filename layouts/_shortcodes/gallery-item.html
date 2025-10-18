@@ -1,18 +1,19 @@
+{{ $image := resources.GetRemote (.Get "src") }}
+
+{{ if ne $image.MediaType.SubType "svg" }}
+{{ $thumbnail := $image.Filter (slice images.AutoOrient (images.Process "fit 500x500")) }}
 <a 
     class="gallery-item" 
-    href="{{ .Get "src" }}" 
-    data-pswp-src="" 
-    data-pswp-width="" 
-    data-pswp-height="" 
-    data-pswp-target="" 
-    title="" 
+    data-pswp-src="{{ $image.RelPermalink }}" 
+    data-pswp-width="{{ $image.Width }}" 
+    data-pswp-height="{{ $image.Height }}" 
 >
 
 
 <img 
     class="lazyload" 
-    src="{{ .Get "src" }}" 
-    alt="" 
+    src="{{ $thumbnail.RelPermalink }}" 
+    alt="test" 
 />
 <!--    <figcaption>
         {{ .Get "title" | upper }}<br>
@@ -23,5 +24,6 @@
         {{ .Get "width"  }} x
         {{ .Get "height" }} in
     </figcaption>-->
-
 </a>
+{{ end }} 
+

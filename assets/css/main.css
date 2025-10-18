@@ -1,23 +1,20 @@
 /* Hide scrollbar for Chrome, Safari and Opera */
 html::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 html {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 } 
 
 body {
      font-family: gotham, sans-serif;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-}
-
-body > * {
-     width: 800px !important;
+     width: 800px;
 }
 
 main p {

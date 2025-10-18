@@ -1,21 +1,21 @@
 nav {
-     font-size: 1.5rem;
-     display: flex;
-     justify-content: space-between;
-     margin-top: 1rem;
-     margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 nav h1 {
-     font-weight: bold;
+    font-weight: bold;
 }
 
 nav ul {
-     display: flex;
+    display: flex;
 }
 
 nav li {
-     margin-left: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 nav a:hover {
@@ -23,6 +23,6 @@ nav a:hover {
 }
 
 .active {
-     font-weight: bold;
+    font-weight: bold;
 }
 
