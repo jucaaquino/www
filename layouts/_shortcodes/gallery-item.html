@@ -15,15 +15,14 @@
     src="{{ $thumbnail.RelPermalink }}" 
     alt="test" 
 />
-<!--    <figcaption>
-        {{ .Get "title" | upper }}<br>
-        {{ .Get "year" }}<br>
+<span class="pswp-caption-content">
+        <b>{{ .Get "title" | upper }}, {{ .Get "year" }}</b><br>
         {{ .Get "media" }}<br>
         {{ math.Round (mul (int (.Get "width" )) 2.54) }} x
         {{ math.Round (mul (int (.Get "height")) 2.54) }} cm |
         {{ .Get "width"  }} x
         {{ .Get "height" }} in
-    </figcaption>-->
+</span>
 </a>
 {{ end }} 
 

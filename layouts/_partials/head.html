@@ -38,7 +38,8 @@
 {{ $form := resources.Get "css/form.css" }}
 {{ $justifiedGalleryCSS := resources.Get "css/justified-gallery.min.css" }}
 {{ $photoswipeCSS := resources.Get "css/photoswipe.css" }}
-{{ $style := slice $reset $justifiedGalleryCSS  $photoswipeCSS $main $header $form | resources.Concat "style.css" }}
+{{ $dynamicCaptionCSS := resources.Get "css/photoswipe-dynamic-caption-plugin.css" }}
+{{ $style := slice $reset $justifiedGalleryCSS  $photoswipeCSS $dynamicCaptionCSS $main $header $form | resources.Concat "style.css" }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
 <script 
@@ -50,7 +51,7 @@
 {{ $justifiedGallery := resources.Get "js/jquery.justified-gallery.min.js" }}
 <script src="{{ $justifiedGallery.Permalink }}"></script>
 
-{{ $js := resources.Get "js/main.js" | js.Build | resources.Fingerprint }}
-<script src="{{ $js.RelPermalink }}" type="module" defer></script>
+{{ $script := resources.Get "js/main.js" | js.Build | resources.Fingerprint }}
+<script src="{{ $script.RelPermalink }}" type="module" defer></script>
 
 </head>

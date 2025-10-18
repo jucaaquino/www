@@ -3,65 +3,66 @@ title = "Work"
 description = "Work by Juca"
 +++
 
+{{< gallery-item src=`https://imgs.jucaaquino.com/painting-01.jpg`
+    title=`Homework #01`
+    year=`2025`
+    media=`mixed media on hardboard`
+    width=18 height=30
+>}}
+
+{{< gallery-item src=`https://imgs.jucaaquino.com/painting-02.jpg`
+    title=`Homework #02`
+    year=`2025`
+    media=`mixed media on hardboard`
+    width=18 height=30
+>}}
+
 {{< gallery-item src=`https://imgs.jucaaquino.com/stripe-1.jpg`
-    title=`Untitled`
+    title=`Stripe #1`
     year=`2024`
     media=`oil and acrylic on paper`
     width=26 height=20
 >}}
 
 {{< gallery-item src=`https://imgs.jucaaquino.com/stripe-2.jpg`
-    title=`Untitled`
+    title=`Stripe #2`
     year=`2024`
     media=`oil and acrylic on paper`
     width=26 height=20
 >}}
 
 {{< gallery-item src=`https://imgs.jucaaquino.com/stripe-3.jpg`
-    title=`Untitled`
+    title=`Stripe #3`
     year=`2024`
     media=`oil and acrylic on paper`
     width=26 height=20
 >}}
 
 {{< gallery-item src=`https://imgs.jucaaquino.com/stripe-4.jpg`
-    title=`Untitled`
+    title=`Stripe #4`
     year=`2024`
     media=`oil and acrylic on paper`
     width=26 height=20
 >}}
 
 {{< gallery-item src=`https://imgs.jucaaquino.com/stripe-5.jpg`
-    title=`Untitled`
+    title=`Stripe #5`
     year=`2024`
     media=`oil and acrylic on paper`
     width=26 height=20
 >}}
 
 {{< gallery-item src=`https://imgs.jucaaquino.com/stripe-black.jpg`
-    title=`Untitled`
+    title=`Black`
     year=`2024`
     media=`oil and acrylic on paper`
     width=26 height=20
 >}}
 
 {{< gallery-item src=`https://imgs.jucaaquino.com/stripe-white.jpg`
-    title=`Untitled`
+    title=`White`
     year=`2024`
     media=`oil and acrylic on paper`
     width=26 height=20
 >}}
 
-{{< gallery-item src=`https://placehold.co/392x898.jpg`
-    title=`Untitled`
-    year=`2024`
-    media=`oil and acrylic on paper`
-    width=26 height=20
->}}
-
-{{< gallery-item src=`https://placehold.co/3892x3298.jpg`
-    title=`Untitled`
-    year=`2024`
-    media=`oil and acrylic on paper`
-    width=26 height=20
->}}
