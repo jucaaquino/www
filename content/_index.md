@@ -6,5 +6,5 @@ priority = 1.0
 +++
 
 # Site under construction
-for inquiries please contact info@jucaaquino.org
+for inquiries please contact info@jucaaquino.com
 
