@@ -17,7 +17,7 @@ body {
 }
 
 body > * {
-     width: 800px;
+     width: 800px !important;
 }
 
 main p {

@@ -1,9 +1,6 @@
 +++
 title = "Work"
-gallery = "School of Art Student Gallery"
-city = "Winnipeg, Canada"
-year = 2024
-description = "All of the Above, a project by Juca Aquino"
+description = "Work by Juca"
 +++
 
 {{< gallery-item src=`https://imgs.jucaaquino.com/stripe-1.avif`
@@ -27,7 +24,28 @@ description = "All of the Above, a project by Juca Aquino"
     width=26 height=20
 >}}
 
-{{< gallery-item src=`https://imgs.jucaaquino.com/stripe-3.avif`
+{{< gallery-item src=`https://imgs.jucaaquino.com/stripe-4.avif`
+    title=`Untitled`
+    year=`2024`
+    media=`oil and acrylic on paper`
+    width=26 height=20
+>}}
+
+{{< gallery-item src=`https://imgs.jucaaquino.com/stripe-5.avif`
+    title=`Untitled`
+    year=`2024`
+    media=`oil and acrylic on paper`
+    width=26 height=20
+>}}
+
+{{< gallery-item src=`https://imgs.jucaaquino.com/stripe-black.avif`
+    title=`Untitled`
+    year=`2024`
+    media=`oil and acrylic on paper`
+    width=26 height=20
+>}}
+
+{{< gallery-item src=`https://imgs.jucaaquino.com/stripe-white.avif`
     title=`Untitled`
     year=`2024`
     media=`oil and acrylic on paper`
