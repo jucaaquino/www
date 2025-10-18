@@ -41,32 +41,16 @@
 {{ $style := slice $reset $justifiedGalleryCSS  $photoswipeCSS $main $header $form | resources.Concat "style.css" }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script 
+    src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+    crossorigin="anonymous"
+></script>
 
 {{ $justifiedGallery := resources.Get "js/jquery.justified-gallery.min.js" }}
 <script src="{{ $justifiedGallery.Permalink }}"></script>
-{{ $photoswipe := resources.Get "js/photoswipe.esm.min.js" }}
-{{ $photoswipeLightbox := resources.Get "js/photoswipe-lightbox.esm.min.js" }}
 
-
-<script type="module">
-
-$("#gallery").justifiedGallery({
-    rowHeight : 200,
-    lastRow : 'justify',
-    margins : 10,
-    border: 0,
-    captions: false
-});
-
-import PhotoSwipeLightbox from '{{ $photoswipeLightbox.Permalink }}';
-const lightbox = new PhotoSwipeLightbox({
-  gallery: '#gallery',
-  children: 'a',
-  pswpModule: () => import('{{ $photoswipe.Permalink }}')
-});
-lightbox.init();
-
-</script>
+{{ $js := resources.Get "js/main.js" | js.Build | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" type="module" defer></script>
 
 </head>
