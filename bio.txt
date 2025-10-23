@@ -1,6 +1,0 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-blandit elementum accumsan. Donec ultrices nisl non dignissim
-aliquam. Pellentesque sodales consequat commodo. Pellentesque
-molestie in leo ut dignissim. Fusce tincidunt rutrum lacus. Duis
-rutrum vehicula leo ac dignissim. In eleifend condimentum dolor,
-laoreet vehicula augue posuere eget. Integer placerat, risus. 
