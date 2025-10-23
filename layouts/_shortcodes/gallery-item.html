@@ -1,19 +1,17 @@
 {{ $image := resources.GetRemote (.Get "src") }}
 
 {{ if ne $image.MediaType.SubType "svg" }}
-{{ $thumbnail := $image.Filter (slice images.AutoOrient (images.Process "fit 500x500")) }}
+{{ $thumbnail := $image.Filter (slice images.AutoOrient (images.Process "resize x500")) }}
 <a 
     class="gallery-item" 
     data-pswp-src="{{ $image.RelPermalink }}" 
     data-pswp-width="{{ $image.Width }}" 
     data-pswp-height="{{ $image.Height }}" 
 >
-
-
 <img 
     class="lazyload" 
     src="{{ $thumbnail.RelPermalink }}" 
-    alt="test" 
+    alt="{{ .Get "title" }}, {{ .Get "year" }}" 
 />
 <span class="pswp-caption-content">
         <b>{{ .Get "title" | upper }}, {{ .Get "year" }}</b><br>
@@ -21,7 +19,13 @@
         {{ math.Round (mul (int (.Get "width" )) 2.54) }} x
         {{ math.Round (mul (int (.Get "height")) 2.54) }} cm |
         {{ .Get "width"  }} x
-        {{ .Get "height" }} in
+        {{ .Get "height" }} in<br>
+        <!--<button 
+            onclick="document.location='/contact/'" 
+            class="pswp-caption-content__button"
+        >
+        INQUIRE
+        </button> -->
 </span>
 </a>
 {{ end }} 

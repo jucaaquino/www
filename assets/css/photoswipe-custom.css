@@ -1,0 +1,17 @@
+.pswp__bg { 
+    background: white;
+}
+
+/* override zoom cursor */
+.pswp__img {
+    cursor: pointer !important;
+}
+
+.pswp__dynamic-caption {
+    color: black;
+    background: transparent;
+}
+
+.pswp-caption-content__button {
+    text-decoration: underline;
+}

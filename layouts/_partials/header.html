@@ -1,19 +1,20 @@
-<header>
-    <nav>
-        <h1><a href="/">{{- site.Title | upper -}}</a></h1>
-        <ul>
-            {{- $page := . }}
-            {{- range .Site.Menus.main }}
-            <li>
-                <a 
-                    href="{{ .URL }}"
-                    {{ if eq .URL $page.RelPermalink }}
-                        class="active"
-                    {{ end }}>
-                    {{- .Name | upper -}}
-                </a>
-            </li>
-            {{- end }}
-        </ul>
-    </nav>
+<header class="header">
+<a class="header__logo" href="/">{{ site.Title | upper }}</a>
+
+<nav>
+<ul class="header__nav">
+
+{{ $page := . }}
+{{ range .Site.Menus.main }}
+<li class="header__nav-item 
+    {{- if eq .URL $page.RelPermalink }} header__nav-item--active 
+    {{- end -}}">
+<a href="{{ .URL }}">
+{{ .Name | upper }}
+</a>
+</li>
+{{ end }}
+
+</ul>
+</nav>
 </header>

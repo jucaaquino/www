@@ -32,15 +32,19 @@
 />
 
 <!-- open graph goes here -->
-{{ $reset := resources.Get "css/reset.css" }}
-{{ $main := resources.Get "css/main.css" }}
-{{ $header := resources.Get "css/header.css" }}
-{{ $form := resources.Get "css/form.css" }}
-{{ $justifiedGalleryCSS := resources.Get "css/justified-gallery.min.css" }}
-{{ $photoswipeCSS := resources.Get "css/photoswipe.css" }}
-{{ $dynamicCaptionCSS := resources.Get "css/photoswipe-dynamic-caption-plugin.css" }}
-{{ $style := slice $reset $justifiedGalleryCSS  $photoswipeCSS $dynamicCaptionCSS $main $header $form | resources.Concat "style.css" }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+{{ $css := slice  
+    (resources.Get "css/reset.css")
+    (resources.Get "css/justified-gallery.min.css")
+    (resources.Get "css/photoswipe.css")
+    (resources.Get "css/photoswipe-dynamic-caption-plugin.css")
+    (resources.Get "css/photoswipe-custom.css")
+    (resources.Get "css/main.css")
+    (resources.Get "css/header.css")
+    (resources.Get "css/footer.css")
+| resources.Concat "style.css" }}
+
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
 
 <script 
     src="https://code.jquery.com/jquery-3.7.1.min.js" 
@@ -48,10 +52,10 @@
     crossorigin="anonymous"
 ></script>
 
-{{ $justifiedGallery := resources.Get "js/jquery.justified-gallery.min.js" }}
-<script src="{{ $justifiedGallery.Permalink }}"></script>
+{{ $justified_gallery := resources.Get "js/jquery.justified-gallery.min.js" }}
+<script src="{{ $justified_gallery.Permalink }}"></script>
 
-{{ $script := resources.Get "js/main.js" | js.Build | resources.Fingerprint }}
-<script src="{{ $script.RelPermalink }}" type="module" defer></script>
+{{ $js := resources.Get "js/main.js" | js.Build | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" type="module" defer></script>
 
 </head>

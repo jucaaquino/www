@@ -7,23 +7,26 @@ html::-webkit-scrollbar {
 html {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+} 
+
+html {
     display: flex;
     flex-direction: column;
     align-items: center;
-} 
+}
 
 body {
-     font-family: gotham, sans-serif;
-     width: 800px;
+    font-family: gotham, sans-serif;
+    width: 800px;
 }
 
-main p {
+a { 
+    cursor: pointer; 
+}
+
+p {
     margin-bottom: 1.5rem;
-
-}
-
-a {
-    cursor: pointer;
+    text-align: justify;
 }
 
 p a {
@@ -31,29 +34,15 @@ p a {
      text-decoration: underline;
 }
 
-main h2 {
+main h1  {
   font-size: 1rem;
   font-weight: bold;
 }
 
-.icons {
-     display: flex;
-}
-
-.pswp__bg { background: white; }
-
-/* override zoom cursor */
-.pswp__img {
-    cursor: pointer !important;
-}
-
-.pswp__dynamic-caption {
-    color: black;
-    background: transparent
-}
-
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 816px) {
     body {
-        width: calc(100% - 20px);
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }

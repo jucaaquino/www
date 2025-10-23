@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer__icon-container {
+     display: flex;
+}
+
+.footer, .footer__icon-img {
+    height: 1.5rem;
+}
+
+.footer__icon:not(:last-child) {
+    margin-right: 1.5rem;
+}

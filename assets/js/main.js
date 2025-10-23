@@ -1,8 +1,8 @@
 // justify image gallery
 $("#gallery").justifiedGallery({
-    rowHeight : 250,
+    rowHeight : 200,
     //lastRow : 'justify',
-    margins : 10,
+    margins : 8,
     border: 0,
     captions: false
 });
@@ -27,7 +27,7 @@ const lightbox = new PhotoSwipeLightbox({
     pswpModule: () => import('./photoswipe.esm.min.js'),
     paddingFn: (viewportSize) => {
         return {
-            top: 30, bottom: 30, left: 15, right: 15
+            top: 32, bottom: 32, left: 16, right: 16
         }
     },
 });

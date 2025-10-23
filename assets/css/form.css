@@ -1,15 +1,16 @@
-input, textarea { 
+.form__input {
     border-width: 1px;
     width: 100%;
     padding: 0.5rem;
 }
 
-textarea {
+.form__input--textarea {
     height: 200px;
     min-height: 100px;
 }
 
-form div {
+.form__info {
+    display: flex;
     margin-bottom: 0.5rem;
 }
 
@@ -18,3 +19,5 @@ button {
     color: grey;
     width: 100%
 }
+
+/* WIP */
