@@ -5,13 +5,13 @@ description = 'Juca Aquino artist portfolio website about bio section'
 priority = 0.7
 +++
 
-![Juca Aquino Portrait](https://placehold.co/1000x667)
+![Portrait of Juca Aquino](https://imgs.jucaaquino.com/portrait.jpg)
 
-## Artist Statement
-{{< include-text "static/statement/aquino-artist-statement-200.tex" >}}
+# Artist Statement
+{{< include-text "statement.txt" >}}
 
-## Biography
-{{< include-text "static/bio/aquino-bio-150.tex" >}}
+# Biography
+{{< include-text "bio.txt" >}}
 
-<a href="/cv/aquino-cv.pdf" target="_blank">download cv</a>
+<a href="/aquino-cv.pdf" target="_blank">download cv</a>
 
