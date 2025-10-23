@@ -54,6 +54,10 @@ jobs:
           root_file: aquino-cv.tex
           pre_compile: wget https://raw.githubusercontent.com/jucaaquino/cv/refs/heads/master/aquino-cv.tex
           post_compile: "mv aquino-cv.pdf static/aquino-cv.pdf"
+      - name: Get Artist Statement
+        run: wget -O statement.txt https://raw.githubusercontent.com/jucaaquino/statement/refs/heads/master/aquino-artist-statement-200.tex
+      - name: Get Bio
+        run: wget -O bio.txt https://raw.githubusercontent.com/jucaaquino/bio/refs/heads/master/aquino-bio-50.tex
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
