@@ -52,8 +52,8 @@ jobs:
         uses: xu-cheng/latex-action@v4
         with: 
           root_file: aquino-cv.tex
-        pre_compile: wget https://raw.githubusercontent.com/jucaaquino/cv/refs/heads/master/aquino-cv.tex
-        post_compile: "mv aquino-cv.pdf static/aquino-cv.pdf"
+          pre_compile: wget https://raw.githubusercontent.com/jucaaquino/cv/refs/heads/master/aquino-cv.tex
+          post_compile: "mv aquino-cv.pdf static/aquino-cv.pdf"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
