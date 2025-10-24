@@ -1,18 +1,21 @@
-// justify image gallery
-$("#gallery").justifiedGallery({
-    rowHeight : 200,
-    //lastRow : 'justify',
-    margins : 8,
-    border: 0,
-    captions: false
-});
-
-// activate lightbox
 import PhotoSwipeLightbox from './photoswipe-lightbox.esm.min.js';
 import PhotoSwipeDynamicCaption from './photoswipe-dynamic-caption-plugin.esm.min.js'
-const lightbox = new PhotoSwipeLightbox({
+
+// justify image gallery
+const justifiedGallerySettings = {
+    rowHeight: $(window).width() < 816 ? 150 : 200,
+    //lastRow : 'justify',
+    margins: 4,
+    border: 0,
+    captions: false
+};
+
+$("#gallery").justifiedGallery(justifiedGallerySettings);
+
+// activate lightbox
+const lightboxSettings = {
     gallery: '#gallery',
-    children: 'a',
+    children: '.gallery__item',
 
     arrowPrev: false,
     arrowNext: false,
@@ -29,13 +32,14 @@ const lightbox = new PhotoSwipeLightbox({
         return {
             top: 32, bottom: 32, left: 16, right: 16
         }
-    },
-});
+    }
+};
 
-const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+const captionSettings = {
     type: 'auto',
     mobileCaptionOverlapRatio: 1
-});
+};
 
+const lightbox = new PhotoSwipeLightbox(lightboxSettings);
+const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, captionSettings);
 lightbox.init();
-

@@ -15,3 +15,7 @@
 .pswp-caption-content__button {
     text-decoration: underline;
 }
+
+.pswp__dynamic-caption--mobile {
+    padding-bottom: 1.5rem;
+}
