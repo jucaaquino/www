@@ -31,7 +31,12 @@
     {{- end -}}"
 />
 
-<!-- open graph goes here -->
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.jucaaquino.com/" />
+<meta property="og:title" content="JUCA AQUINO" />
+<meta property="og:description" content="Catalogue raisonné containing complete archives of work, shows and media" />
+<meta property="og:image" content="https://imgs.jucaaquino.com/stripe-1.jpg" />
 
 {{ $css := slice  
     (resources.Get "css/reset.css")
@@ -42,6 +47,7 @@
     (resources.Get "css/main.css")
     (resources.Get "css/header.css")
     (resources.Get "css/footer.css")
+    (resources.Get "css/shows-list.css")
 | resources.Concat "style.css" }}
 
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
