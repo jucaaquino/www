@@ -1,7 +1,7 @@
-{{ $image := resources.GetRemote (.Get "src") }}
+{{ $image := images.Filter images.AutoOrient (resources.GetRemote (.Get "src")) }}
 
 {{ if ne $image.MediaType.SubType "svg" }}
-{{ $thumbnail := $image.Filter (slice images.AutoOrient (images.Process "resize x500")) }}
+{{ $thumbnail := $image.Filter (slice (images.Process "resize x500")) }}
 <a 
     class="gallery__item" 
     data-pswp-src="{{ $image.RelPermalink }}" 
