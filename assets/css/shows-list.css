@@ -1,0 +1,20 @@
+.shows-list {
+    display: grid;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.shows-list__img {
+    margin-bottom: 0.5rem;
+}
+
+.shows-list__title {
+    /*font-weight: bold;*/
+}
+
+@media only screen and (max-width: 816px) {
+    .shows-list {
+        grid-template-columns: 1fr;
+    }
+}
